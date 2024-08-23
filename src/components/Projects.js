@@ -68,12 +68,12 @@ function Projects(){
                   permitindo que os usuários naveguem por diferentes categorias.</Typography>
               </Box>
               <Box sx={{display: 'flex', alignItems: 'center',gap: '20px', marginTop: '30px', flexDirection: {xs: 'column', md: 'row'}}}>
-                <a href="https://challenge-woovi.netlify.app/" target="blank">
+                <a href="https://clone-netflix.netlify.app/" target="blank">
                   <Box sx={{backgroundColor: '#a526d5', width: {xs: '150px', lg: '200px'}, height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                     <Typography sx={{fontSize: '20px', fontWeight: 'bold'}}>Ver Online</Typography>
                   </Box>
                 </a>
-                <a href="https://github.com/VtaZinn/woovi-challenge" target="blank">
+                <a href="https://github.com/VtaZinn/CloneNetflixReactJS" target="blank">
                   <Box sx={{color: colorPurple, width: {xs: '150px', lg: '200px'}, height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '2px solid #a526d5'}}>
                     <Typography sx={{fontSize: '20px', fontWeight: 'bold'}}>GitHub</Typography>
                   </Box>

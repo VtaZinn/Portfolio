@@ -50,14 +50,12 @@ function Footer() {
                 <Typography sx={{fontWeight: 'bold'}}>CURRÍCULO</Typography>
               </Box>
             </a>
-              
-            <a href="mailtoaugustovta416@gmail.com" target="blank">
-              <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'left', gap: '15px'}}>
-                <img src={imgEmail} className="triangleGray" alt='EMAIL'/>
-                <Typography sx={{fontWeight: 'bold'}}>augustovta416@gmail.com</Typography>
-              </Box>
-            </a>
-              
+                
+            <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'left', gap: '15px'}}>
+              <img src={imgEmail} className="triangleGray" alt='EMAIL'/>
+              <Typography sx={{fontWeight: 'bold', color: 'white'}}>augustovta416@gmail.com</Typography>
+            </Box>
+            
             <a href="https://wa.me/5511964394048" target="blank">
               <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'left', gap: '15px'}}>
                 <img src={imgWhats} className="triangleGray" alt='TELEFONE'/>

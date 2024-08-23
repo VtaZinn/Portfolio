@@ -25,7 +25,7 @@ function GetName(props) {
     <>
     <Box sx={{zIndex: 1, position: 'relative'}}>
       <Wrapper>
-        <Typography sx={{color: 'white', fontSize: '25px'}}>VICTOR AUGUSTO PORTFOLIO</Typography>
+        <Typography sx={{color: 'white', fontSize: '25px', marginTop: '30px'}}>VICTOR AUGUSTO PORTFOLIO</Typography>
       </Wrapper>
       <Wrapper>
         <Box sx={{height: '85vh', display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth: '606px', flexDirection: 'column'}}>
@@ -44,7 +44,7 @@ function GetName(props) {
       </Wrapper>
       <Wrapper>
         <Box sx={{border: '1px solid white', width: '230px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-          <Typography sx={{color: 'white'}}>NÃO QUERO MOEDAS</Typography>
+          <Typography  onClick={()=>getName()} sx={{color: 'white', cursor: 'pointer'}}>NÃO QUERO MOEDAS</Typography>
         </Box>
       </Wrapper>
       </Box>
