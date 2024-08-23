@@ -1,0 +1,66 @@
+.fotoVictor {
+  width: 100%;
+  height: 32vh;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.triangleGray{
+  height: 30px;
+}
+
+.trianglePurple{
+  height: 30px;
+  margin-left: 5px;
+}
+
+.coin {
+  width: 30px;
+  height: 30px;
+}
+
+.retangle {
+  margin-left: 3px;
+}
+
+.imgProject{
+  width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.lineEsquerda{
+  margin-top: -50px;
+  margin-left: -20px;
+}
+
+.lineDireira{ 
+  margin-top: 50px;
+}
+
+.inputName{
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.inputName:focus-visible {
+  outline: none;
+}
+
+.paragrafo {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.imgTicTacToe {
+  width: 150px;
+  height: 150px;
+}
+

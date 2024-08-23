@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import { Box, ThemeProvider } from '@mui/material';
+import React, { useEffect, useState } from 'react';
+import theme from './theme/theme'
+import '@fontsource/rubik';
+import Home from './components/Home';
+import Background from './animation/Background';
 import './App.css';
+import GetName from './components/GetName';
+import TicTacToe from './game/TicTacToe';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <ThemeProvider theme={theme} >
+    
+    <Box sx={{zIndex: 0, position: 'absolute'}}>
+      <Background />
+    </Box>
+    <Router>
+      <Routes>
+        <Route path="/" element={<GetName/>} />
+        <Route path="/home" element={ <Home />} />
+        <Route path="/tic-tac-toe" element={ <TicTacToe/>} />
+      </Routes>
+    </Router>
+    
+  </ThemeProvider>
+  </>
   );
 }
 
