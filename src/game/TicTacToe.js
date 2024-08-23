@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './TicTacToe.css'
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import Coin from '../images/coin.png'
 
 function TicTacToe() {
@@ -41,8 +41,8 @@ function TicTacToe() {
     ];
 
     possibleWaysToWin.forEach(cells => {
-      if(cells.every(cell => cell == "O")) setWinner("O")
-      if(cells.every(cell => cell == "X")) setWinner("X")
+      if(cells.every(cell => cell === "O")) setWinner("O")
+      if(cells.every(cell => cell === "X")) setWinner("X")
     });
 
 

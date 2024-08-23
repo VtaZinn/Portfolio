@@ -1,4 +1,3 @@
-import Particles from "react-particles";
 import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { tsParticles } from "@tsparticles/engine";
 

@@ -1,10 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import Wrapper from "./Wrapper";
-import Retangle from "../images/retangle.png";
 import '../style/Home.css';
 import coin from '../images/coin.png';
 import imgTicTacToe from '../images/tictactoe.png'
-import Coin from "../images/coin.png";
 import { colorPurple } from "../theme/theme";
 import { useState } from "react";
 
