@@ -52,7 +52,8 @@ function TicTacToe() {
   const checkDraw = () => {
     if(board.every(item=>item !== "")) setWinner("E");
   }
-
+  
+  // eslint-disable-next-line
   useEffect(checkWinner, [board]);
 
   const resetGame = () => {
