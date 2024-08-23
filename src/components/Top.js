@@ -8,14 +8,12 @@ import Coin from "../images/coin.png";
 import React, { useState, useEffect } from "react";
 
 function Top(props) {
-  const [time, setTime] = useState(new Date());
   const [greeting, setGreeting] = useState("");
 
   useEffect(() => {
     // Atualiza a hora a cada segundo
     const timer = setInterval(() => {
       const currentTime = new Date();
-      setTime(currentTime);
       updateGreeting(currentTime.getHours());
     }, 1000);
 
@@ -62,13 +60,13 @@ function Top(props) {
               Seja bem vindo ao meu portfólio {name}, estou muito feliz com sua visita! Este portfólio vai ser bem diferente do que você já viu por aí.
               Fiz ele com intuito de ser bem descontraído, e ao mesmo tempo falar sobre minhas experiências e aprendizados!
             </Typography>
-            {name != 'Misterioso(a)' && 
+            {name !== 'Misterioso(a)' && 
             <>
               <Typography sx={{ width: '100%', marginTop: '30px', textAlign: 'center', fontSize: '20px' }}>Ah, antes que eu me esqueça, você ganhou 5 moedas! 🤑 </Typography>
               <Typography sx={{ textAlign: 'center' }}>Jaja você vai poder ostentá-las 💸</Typography>
             </>
             } 
-            {name == 'Misterioso(a)' && 
+            {name === 'Misterioso(a)' && 
             <Typography sx={{ width: '100%', marginTop: '30px', textAlign: 'center', fontSize: '20px' }}> Você não ganhou suas moedas iniciais (ao não dizer seu nome) mas fique calmo! Você terá outras chances!</Typography>
             }
           </Box>
