@@ -44,12 +44,12 @@ function Footer() {
             </a>
             
               
-            <a href="https://drive.google.com/drive/folders/1KxiwtnOGOZOiR3utpsvIxnJJvk7T3-Qy?usp=sharing" target="blank">
-              <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'left', gap: '15px'}}>
-                <img src={imgCurriculo} className="triangleGray" alt='CURRÍCULO'/>
-                <Typography sx={{fontWeight: 'bold'}}>CURRÍCULO</Typography>
-              </Box>
-            </a>
+            // <a href="https://drive.google.com/drive/folders/1KxiwtnOGOZOiR3utpsvIxnJJvk7T3-Qy?usp=sharing" target="blank">
+            //   <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'left', gap: '15px'}}>
+            //     <img src={imgCurriculo} className="triangleGray" alt='CURRÍCULO'/>
+            //     <Typography sx={{fontWeight: 'bold'}}>CURRÍCULO</Typography>
+            //   </Box>
+            // </a>
                 
             <Box sx={{display: 'flex', alignItems: 'center', justifyContent: 'left', gap: '15px'}}>
               <img src={imgEmail} className="triangleGray" alt='EMAIL'/>
