@@ -51,7 +51,7 @@ function AboutMe(props) {
           <Typography sx={{fontSize: '40px', fontWeight: 'bold', color: colorPurple, marginTop: '-20px',  textAlign: 'center'}}> Victor Augusto</Typography>
           <Typography sx={{fontSize: {xs: '20px', md: '25px'}, marginTop: '30px'}}>Sou desenvolvedor web especializado em React.js com experiência em criar 
             interfaces de usuário dinâmicas e responsivas. Atualmente trabalho de forma autônoma desenvolvendo sites e landing pages do inicio ao fim.
-            <p className="paragrafo">Tenho formação em Web Design, Técnico em Informática para Web e atualmente estou cursando um Bootcamp de Desenvolvedor Web.
+            <p className="paragrafo">Tenho formação em Web Design e Técnico em Informática para Web.
             Já tive experiência com vendas e atendimento ao cliente, e com isso pude desenvolver habilidades de comunicação, trabalho em equipe e gestão.</p></Typography>
         </Box>
         <Box sx={{width: '300px', height: '300px', marginTop: {xs: '50px', lg: '0px'}}}>
@@ -110,7 +110,7 @@ function AboutMe(props) {
                 Projeto Rede Social
               </Typography>
               <Typography sx={{textAlign: 'center'}}>
-                Estou desenvolvendo uma rede social inspirada no Instagram como projeto de um bootcamp. 
+                Estou desenvolvendo uma rede social inspirada no Instagram. 
                 A aplicação oferece funcionalidades como a alteração de foto de perfil e nome de usuário. Além disso, os usuários podem adicionar imagens,
                 explorar postagens, e interagir com o conteúdo por meio de curtidas. O projeto foca em uma interface 
                 intuitiva e responsiva, garantindo uma experiência de usuário fluida e dinâmica em dispositivos móveis e desktops.
